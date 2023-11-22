@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Form Thể Thao Ngoại Cỡ</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<h1>Form Thể Thao Ngoại Cỡ</h1>
+
+<form id="sportForm" method="post" action="process.php">
+  <label for="productName">Tên sản phẩm:</label>
+  <input type="text" id="productName" name="productName" required><br><br>
+
+  <label for="productDescription">Mô tả:</label>
+  <textarea id="productDescription" name="productDescription" required></textarea><br><br>
+
+  <label for="productPrice">Giá:</label>
+  <input type="number" id="productPrice" name="productPrice" required><br><br>
+
+  <input type="submit" value="Submit">
+</form>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
